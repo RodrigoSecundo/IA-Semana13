@@ -24,7 +24,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-X = df[['altura']]  # deve ser 2D
+X = df[['altura']] 
 y = df['peso']
 
 model = LinearRegression()
